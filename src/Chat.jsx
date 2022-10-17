@@ -31,6 +31,27 @@ export default function Chat(props) {
     {
       id: '3',
       message: 'Hi {previousValue}, nice to meet you!',
+      trigger: '4'
+      // end: true,
+    },
+    {
+      id: '4',
+      message: `What's your favorite thing to do outside?`,
+      trigger: '5',
+    },
+    {
+      id: '5',
+      user: true,
+      trigger: '6',
+    },
+    {
+      id: '6',
+      message: `Wow, that sounds fun! We should try that together sometime`,
+      trigger: '7',
+    },
+    {
+      id: '7',
+      message: `Sorry - I have to go now... nice chatting with you! \n Bye!`,
       end: true,
     },
   ]
