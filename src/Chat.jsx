@@ -51,7 +51,22 @@ export default function Chat(props) {
     },
     {
       id: '7',
-      message: `Sorry - I have to go now... nice chatting with you! \n Bye!`,
+      message: `Do you like ice cream?`,
+      trigger: '8',
+    },
+    {
+      id: '8',
+      user: true,
+      trigger: '9',
+    },
+    {
+      id: '9',
+      message: `Wow - same!`,
+      trigger: '10',
+    },
+    {
+      id: '10',
+      message: `Sorry - I have to go now... nice chatting with you! Bye!`,
       end: true,
     },
   ]
