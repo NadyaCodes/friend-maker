@@ -1,7 +1,6 @@
 import ChatBot from 'react-simple-chatbot';
 import { ThemeProvider } from 'styled-components';
 
-
 const theme = {
   background: '#f5f8fb',
   fontFamily: 'Helvetica Neue',
@@ -15,7 +14,16 @@ const theme = {
 };
 
 export default function Chat(props) {
-  const {name} = props
+  const {name, image} = props
+  console.log(image)
+
+  const config = {
+    hideUserAvatar: true,
+    hideBotAvatar: true,
+    floating: true,
+    // botAvatar: 'img.png',
+    // userAvatar: 'img.png'
+};
 
   const steps=[
     {
@@ -76,7 +84,7 @@ export default function Chat(props) {
     <ThemeProvider theme={theme}>
       <ChatBot 
         steps={steps} 
-        // botAvatar={smile}
+        {...config}
         />;
     </ThemeProvider>
   )

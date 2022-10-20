@@ -11,7 +11,7 @@ export default function Friend(props) {
       <div>{friend.name.first}</div>
       <div>(aka {nickname})</div>
       <img src={friend.picture.large} alt='new friend profile picture'></img>
-      <Chat name={friend.name.first}/>
+      <Chat name={friend.name.first} image={friend.picture.large}/>
     </div>
   )
 }
