@@ -85,7 +85,7 @@ export default function Chat(props) {
       <ChatBot 
         steps={steps} 
         {...config}
-        />;
+        />
     </ThemeProvider>
   )
 }
