@@ -4,13 +4,13 @@ import { ThemeProvider } from 'styled-components';
 const theme = {
   background: '#f5f8fb',
   fontFamily: 'Helvetica Neue',
-  headerBgColor: '#EF6C00',
+  headerBgColor: '#2e487b',
   headerFontColor: '#fff',
   headerFontSize: '15px',
-  botBubbleColor: '#EF6C00',
+  botBubbleColor: '#282c34',
   botFontColor: '#fff',
-  userBubbleColor: '#fff',
-  userFontColor: '#4a4a4a',
+  userBubbleColor: '#2e487b',
+  userFontColor: '#fff',
 };
 
 export default function Chat(props) {

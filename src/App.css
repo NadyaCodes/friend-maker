@@ -57,7 +57,7 @@ button:hover {
   top: 8rem;
   width: 5rem;
   height: 5rem;
-  animation: .6s linear .1s 5 rock;
+  animation: .6s linear .1s 2 rock;
 }
 
 @keyframes rock {
