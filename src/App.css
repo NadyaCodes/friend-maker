@@ -77,3 +77,8 @@ button:hover {
     transform: rotate(0deg)translate(0rem, 0rem)
   }
 }
+
+
+#root > div > div > div > img {
+  border-radius: 50%;
+}
