@@ -15,7 +15,6 @@ const theme = {
 
 export default function Chat(props) {
   const {name, image} = props
-  console.log(image)
 
   const config = {
     hideUserAvatar: true,
