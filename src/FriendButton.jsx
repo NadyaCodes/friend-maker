@@ -12,8 +12,8 @@ export default function FriendButton() {
 
   return (
     <div>
-      <button onClick={() => fetchPerson()}>Make Friend</button>
-      {friend.name !== undefined && <Friend friend={friend} />}
+      {friend.name !== undefined ? <Friend friend={friend} /> : <button onClick={() => fetchPerson()}>Make Friend</button>}
+      <button onClick={() => window.location.reload(false)}>Reset</button>
     </div>
   )
 }
